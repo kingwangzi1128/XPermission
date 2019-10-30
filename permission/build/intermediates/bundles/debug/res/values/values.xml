@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="permission_dp_10">10dp</dimen>
+    <dimen name="permission_dp_15">15dp</dimen>
+    <dimen name="permission_dp_20">20dp</dimen>
+    <dimen name="permission_dp_25">25dp</dimen>
+    <dimen name="permission_dp_3">3dp</dimen>
+    <dimen name="permission_dp_30">30dp</dimen>
+    <dimen name="permission_dp_35">35dp</dimen>
+    <dimen name="permission_dp_40">40dp</dimen>
+    <dimen name="permission_dp_5">5dp</dimen>
+    <dimen name="permission_sp_12">12sp</dimen>
+    <dimen name="permission_sp_14">14sp</dimen>
+    <dimen name="permission_sp_16">16sp</dimen>
+    <dimen name="permission_sp_18">18sp</dimen>
+    <dimen name="permission_sp_20">20sp</dimen>
+    <string name="permission_name_activity_recognition">Activity Recognition</string>
+    <string name="permission_name_calendar">Calendar</string>
+    <string name="permission_name_call_log">Call Log</string>
+    <string name="permission_name_camera">Camera</string>
+    <string name="permission_name_contacts">Accounts/Contacts</string>
+    <string name="permission_name_location">Location</string>
+    <string name="permission_name_microphone">Microphone</string>
+    <string name="permission_name_phone">Phone</string>
+    <string name="permission_name_sensors">Body Sensors</string>
+    <string name="permission_name_sms">SMS</string>
+    <string name="permission_name_storage">Storage</string>
+    <string name="permission_requesting">Requesting permissions…</string>
+    <style name="Permission"/>
+    <style name="Permission.MatchParent">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="Permission.Theme"/>
+    <style name="Permission.Theme.Activity">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Permission.Theme.Activity.Transparent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="Permission.Theme.Dialog" parent="android:Theme.Holo.Dialog.NoActionBar"/>
+    <style name="Permission.Theme.Dialog.Transparent">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Permission.Theme.Dialog.Wait">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@drawable/permission_shape_wait_background</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+    <style name="Permission.Widget"/>
+    <style name="Permission.Widget.Progress" parent="@android:style/Widget.Holo.ProgressBar"/>
+    <style name="Permission.Widget.Progress.Wait">
+        <item name="android:indeterminateOnly">true</item>
+    </style>
+    <style name="Permission.WrapContent">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+</resources>

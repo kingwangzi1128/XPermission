@@ -1,0 +1,85 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:18:1-58:12
+INJECTED from E:\XPermission\permission\src\main\AndroidManifest.xml:18:1-58:12
+INJECTED from E:\XPermission\permission\src\main\AndroidManifest.xml:18:1-58:12
+	package
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:19:5-40
+		INJECTED from E:\XPermission\permission\src\main\AndroidManifest.xml
+		INJECTED from E:\XPermission\permission\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:18:11-69
+permission#${applicationId}.andpermission.bridge
+ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:21:5-24:47
+	android:protectionLevel
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:24:9-44
+	android:permissionGroup
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:23:9-65
+	android:name
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:22:9-61
+uses-permission#${applicationId}.andpermission.bridge
+ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:26:22-74
+application
+ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:28:5-56:19
+service#com.yanzhenjie.permission.bridge.BridgeService
+ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:29:9-37:19
+	android:process
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:33:13-42
+	android:exported
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:31:13-37
+	android:permission
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:32:13-71
+	android:name
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:30:13-49
+intent-filter#${applicationId}.andpermission.bridge
+ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:34:13-36:29
+action#${applicationId}.andpermission.bridge
+ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:35:17-80
+	android:name
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:35:25-77
+activity#com.yanzhenjie.permission.bridge.BridgeActivity
+ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:39:9-45:76
+	android:process
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:44:13-42
+	android:exported
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:43:13-71
+	android:configChanges
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:41:13-48
+	android:theme
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:45:13-73
+	android:name
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:40:13-50
+provider#com.yanzhenjie.permission.FileProvider
+ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:47:9-55:20
+	android:grantUriPermissions
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:51:13-47
+	android:authorities
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:49:13-67
+	android:exported
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:48:13-41
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:52:13-54:65
+	android:resource
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:54:17-62
+	android:name
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml:53:17-67
+uses-sdk
+INJECTED from E:\XPermission\permission\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\XPermission\permission\src\main\AndroidManifest.xml
+INJECTED from E:\XPermission\permission\src\main\AndroidManifest.xml
+INJECTED from E:\XPermission\permission\src\main\AndroidManifest.xml
+INJECTED from E:\XPermission\permission\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\XPermission\permission\src\main\AndroidManifest.xml
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml
+		INJECTED from E:\XPermission\permission\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\XPermission\permission\src\main\AndroidManifest.xml
+		ADDED from E:\XPermission\permission\src\main\AndroidManifest.xml
+		INJECTED from E:\XPermission\permission\src\main\AndroidManifest.xml
